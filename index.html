@@ -1,12 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Secfi</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/slick.css">
+  <link rel="stylesheet" href="./css/jquery.fancybox.css">
+  <link rel="stylesheet" href="./css/style.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js" defer></script>
+  <script src="./js/slick.min.js" defer></script>
+  <script src="./js/jquery.fancybox.min.js" defer></script>
+  <script src="./js/app.js" defer></script>
 </head>
+
 <body>
-  
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+
+        <div class="header__left">
+          <a class="header__logo-link" href="#">
+            <img class="menu__logo" src="./images/icons/logo.svg" alt="logo">
+          </a>
+          <ul class="menu__list">
+            <li class="menu__list-item">
+              <a class="menu__list-item-link" href="#">Learn</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-item-link" href="#">Plan</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-item-link" href="#">Finance</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-item-link" href="#">Wealth</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-item-link" href="#">About</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="header__right">
+          <ul class="menu__list-right">
+            <li class="menu__list-item menu-right__item">
+              <a class="menu__list-item menu-right__link" href="#">Log in</a>
+            </li>
+          </ul>
+          <button class="header-btn">Get started</button>
+          <img class="menu-right__search" src="./images/icons/header-search.svg" alt="lupa">
+        </div>
+
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="main__info">
+      <div class="container">
+        <div class="main__info-wrapper">
+
+          <div class="main__inner-left">
+            <h1 class="main__info-title">
+              Equity Financingl
+              <span>for startup employees</span>
+            </h1>
+            <p class="main__info-text">
+              Get equity planning, stock option financing, and wealth management from advisors that know how stock
+              options
+              and equity can help grow your wealth.
+            </p>
+            <button class="main__info-buton">Get started</button>
+          </div>
+
+          <div class="main__inner-right">
+            <img class="main__inner-right main-img" src="./images/main-info.png" alt="">
+          </div>
+
+        </div>
+        <blockquote class="main__info-blockquote">
+          We work with employees from
+          the best startups
+        </blockquote>
+      </div>
+    </section>
+
+    <section class="monitoring">
+      <div class="container">
+
+        <div class="monitoring__table">
+          <p class="monitoring__table-text main__text">
+            This website stores data such as cookies to enable essential site functionality, as well as marketing,
+            personalization, and analytics. By remaining on this website you indicate your consent.
+          </p>
+          <div class="monitoring__inner-text">
+            <p class="monitoring__table-text text__inner">Privacy policy</p>
+            <p class="monitoring__table-text text__inner">Cookie policy</p>
+            <button class="monitoring__table-btn">Got it</button>
+          </div>
+          <blockquote class="monitoring__blockquote">THE LEADING EQUITY PLANNING PLATFORM</blockquote>
+        </div>
+        <div class="monitoring__info">
+          <h1 class="monitoring__title">You've got startup equity. Now what?</h1>
+          <p class="monitoring__text">
+            See your full net worth including your stock options, compare exercise and selling
+            strategies, and see how taxes impact your net gains.
+          </p>
+          <img class="monitoring__img" src="./images/monitoring-price.jpg" alt="">
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
 </body>
+
 </html>
