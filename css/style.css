@@ -79,7 +79,10 @@ button {
 }
 
 .header-btn,
-.main__info-buton {
+.main__info-buton,
+.review__first-block--btn,
+.review__second-block--btn,
+.review__third-block--btn {
   font-size: 12px;
   line-height: 12px;
   color: #eeece3;
@@ -91,7 +94,10 @@ button {
 }
 
 .header-btn:hover,
-.main__info-buton:hover {
+.main__info-buton:hover,
+.review__first-block--btn:hover,
+.review__second-block--btn:hover,
+.review__third-block--btn:hover {
   background-color: #eeece3;
   color: #292a2d;
   border: none;
@@ -210,15 +216,227 @@ button {
   color: #292a2d;
 }
 
-.monitoring__text{
-  max-width: 506px;
+.monitoring__text {
   font-size: 15px;
   line-height: 22px;
   letter-spacing: 0.15px;
-  color: #292A2D;
+  color: #292a2d;
   text-align: center;
 }
 
-.monitoring__img{
-  margin-top: 65px;
+.monitoring__img {
+  margin: 65px 100px 87px 100px;
+}
+
+.monitoring__info-title {
+  margin-bottom: 24px;
+  font-size: 27px;
+  line-height: 37px;
+  text-align: center;
+  letter-spacing: 1.33333px;
+  color: #292a2d;
+}
+
+.monitoring__info-img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 71px;
+}
+
+.review__first-block {
+  background: #fbfbf6;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 133px;
+}
+
+.review__first-textbox {
+  display: flex;
+  margin-top: 26px;
+}
+
+.review__first-block--text {
+  font-size: 12px;
+  line-height: 25px;
+  letter-spacing: 0.125px;
+  text-transform: uppercase;
+  color: #73726c;
+  padding-bottom: 9px;
+}
+
+.review__first-block--title {
+  max-width: 361px;
+  font-size: 23px;
+  line-height: 28px;
+  letter-spacing: 0.933333px;
+  color: #292a2d;
+}
+
+.review__first-textbox {
+  justify-content: start;
+}
+
+.review__first-block--learn {
+  font-size: 12px;
+  line-height: 12px;
+  color: #292a2d;
+  margin-top: 14px;
+  margin-left: 40px;
+}
+
+.first__blog-img {
+  margin: 133px 133px 133px auto;
+}
+
+.review__first-block--left {
+  margin: 310px 106px 293px 133px;
+}
+
+.review__second-block {
+  display: flex;
+}
+
+.review__second-block--left {
+  margin: 0 0 133px 133px;
+}
+
+.review__second-block--right {
+  margin-left: 67px;
+  margin-top: 77px;
+}
+
+.review__second-block--text {
+  font-size: 12px;
+  line-height: 25px;
+  letter-spacing: 0.125px;
+  text-transform: uppercase;
+  color: #73726c;
+  margin-bottom: 9px;
+}
+
+.review__second-block--title {
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.933333px;
+  color: #292a2d;
+  max-width: 342px;
+}
+
+.review__second-textbox {
+  margin-top: 27px;
+  display: flex;
+}
+
+.review__second-block--learn {
+  margin-top: 13px;
+  margin-left: 39px;
+}
+
+.review__third-block {
+  background: #fbfbf6;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 83px;
+}
+
+.review__third-textbox {
+  display: flex;
+  margin-top: 26px;
+}
+
+.review__third-block--text {
+  font-size: 12px;
+  line-height: 25px;
+  letter-spacing: 0.125px;
+  text-transform: uppercase;
+  color: #73726c;
+  padding-bottom: 9px;
+}
+
+.review__third-block--title {
+  max-width: 361px;
+  font-size: 23px;
+  line-height: 28px;
+  letter-spacing: 0.933333px;
+  color: #292a2d;
+}
+
+.review__third-textbox {
+  justify-content: start;
+}
+
+.review__third-block--learn {
+  font-size: 12px;
+  line-height: 12px;
+  color: #292a2d;
+  margin-top: 14px;
+  margin-left: 40px;
+}
+
+.third__blog-img {
+  margin: 133px 133px 133px auto;
+}
+
+.review__third-block--left {
+  margin: 310px 106px 293px 133px;
+}
+
+.review__fouth-block {
+  margin-bottom: 208px;
+  display: flex;
+}
+
+.review__fouth-block--left,
+.review__fouth-block--right {
+  margin: 0 auto;
+}
+
+.review__fouth-block--title {
+  font-size: 20px;
+  line-height: 20px;
+  color: #292a2d;
+}
+
+.review__fouth-block--text {
+  font-size: 13px;
+  line-height: 19px;
+  color: #292a2d;
+  max-width: 368px;
+}
+
+.review__fouth-block--text,
+.review__fouth-block--title {
+  margin-bottom: 17px;
+}
+
+.review__fouth-block--why {
+  font-size: 10px;
+  line-height: 15px;
+  letter-spacing: 0.1px;
+  text-transform: uppercase;
+  color: #73726c;
+}
+
+.review__fouth-block--main--title {
+  font-size: 37px;
+  line-height: 44px;
+  letter-spacing: 1.75px;
+  color: #292a2d;
+  max-width: 276px;
+}
+
+.block__slider-inner {
+  display: flex;
+}
+
+.block__slider-left,.block__slider-right{
+  margin: 0 auto;
+}
+
+.block__slider-right--text {
+  font-size: 13px;
+  line-height: 19px; 
+  letter-spacing: 0.125px;
+  text-transform: uppercase;
+  color: #ffffff;
 }
